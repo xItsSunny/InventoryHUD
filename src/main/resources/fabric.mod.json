@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "inventoryhud",
+	"version": "1.0.0",
+	"name": "Inventory HUD",
+	"description": "Displays the player's inventory on screen when toggled.",
+	"authors": ["xitssunny"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.xitssunny.InventoryHUD"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"fabric": "*",
+		"minecraft": "1.21.4"
+	}
+}
